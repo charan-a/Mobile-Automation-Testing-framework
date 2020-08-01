@@ -1,0 +1,887 @@
+2020-06-11 14:25:00 INFO  Log:17 - Test is Starting...
+2020-06-11 14:25:00 INFO  Log:27 - Starting server
+2020-06-11 14:25:02 INFO  Log:27 - Opening the app
+2020-06-11 14:25:13 INFO  Log:27 - Opening the app
+2020-06-11 14:25:13 INFO  Log:22 - Test is Ending...
+2020-06-11 14:25:15 INFO  Log:27 - Stop driver
+2020-06-11 14:32:42 INFO  Log:17 - Test is Starting...
+2020-06-11 14:32:42 INFO  Log:27 - Starting server
+2020-06-11 14:32:44 INFO  Log:27 - Opening the app
+2020-06-11 14:32:58 INFO  Log:27 - Opening the app
+2020-06-11 14:32:58 INFO  Log:22 - Test is Ending...
+2020-06-11 14:33:00 INFO  Log:27 - Stop driver
+2020-06-11 14:40:19 INFO  Log:17 - Test is Starting...
+2020-06-11 14:40:19 INFO  Log:27 - Starting server
+2020-06-11 14:40:21 INFO  Log:27 - Opening the app
+2020-06-11 14:40:33 INFO  Log:27 - Opening the app
+2020-06-11 14:40:33 INFO  Log:22 - Test is Ending...
+2020-06-11 14:40:35 INFO  Log:27 - Stop driver
+2020-06-11 14:40:38 INFO  Log:17 - Test is Starting...
+2020-06-11 14:40:38 INFO  Log:27 - Starting server
+2020-06-11 14:40:41 INFO  Log:27 - Opening the app
+2020-06-11 14:40:50 INFO  Log:27 - Opening the app
+2020-06-11 14:40:50 INFO  Log:22 - Test is Ending...
+2020-06-11 14:40:52 INFO  Log:27 - Stop driver
+2020-06-11 14:47:55 INFO  Log:17 - Test is Starting...
+2020-06-11 14:47:55 INFO  Log:27 - Starting server
+2020-06-11 14:47:56 INFO  Log:27 - Opening the app
+2020-06-11 14:48:08 INFO  Log:27 - Opening the app
+2020-06-11 14:48:08 INFO  Log:27 - App open
+2020-06-11 14:48:11 INFO  Log:22 - Test is Ending...
+2020-06-11 14:48:14 INFO  Log:27 - Stop driver
+2020-06-11 14:50:11 INFO  Log:17 - Test is Starting...
+2020-06-11 14:50:11 INFO  Log:27 - Starting server
+2020-06-11 14:50:12 INFO  Log:27 - Opening the app
+2020-06-11 14:50:24 INFO  Log:27 - Opening the app
+2020-06-11 14:50:25 INFO  Log:27 - App open
+2020-06-11 14:50:37 INFO  Log:27 - User is on Products page
+2020-06-11 14:50:44 INFO  Log:27 - Products added
+2020-06-11 14:50:46 INFO  Log:27 - User is on Cart page
+2020-06-11 14:50:56 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 14:50:57 ERROR Log:37 - Clicking Link
+java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.<init>(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at base.Utilities.click(Utilities.java:69)
+	at stepDef.ExcelLogIn.exceluser_clicks_on_the(ExcelLogIn.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2020-06-11 14:50:57 INFO  Log:22 - Test is Ending...
+2020-06-11 14:50:59 INFO  Log:27 - Stop driver
+2020-06-11 14:51:20 INFO  Log:17 - Test is Starting...
+2020-06-11 14:51:20 INFO  Log:27 - Starting server
+2020-06-11 14:51:20 INFO  Log:27 - Opening the app
+2020-06-11 14:51:28 INFO  Log:27 - Opening the app
+2020-06-11 14:51:28 INFO  Log:27 - App open
+2020-06-11 14:52:11 INFO  Log:27 - User is on Products page
+2020-06-11 14:52:17 INFO  Log:27 - Products added
+2020-06-11 14:52:19 INFO  Log:27 - User is on Cart page
+2020-06-11 14:52:29 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 14:52:30 ERROR Log:37 - Clicking Link
+java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.<init>(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at base.Utilities.click(Utilities.java:69)
+	at stepDef.ExcelLogIn.exceluser_clicks_on_the(ExcelLogIn.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2020-06-11 14:52:30 INFO  Log:22 - Test is Ending...
+2020-06-11 14:52:33 INFO  Log:27 - Stop driver
+2020-06-11 15:11:54 INFO  Log:17 - Test is Starting...
+2020-06-11 15:11:54 INFO  Log:27 - Starting server
+2020-06-11 15:11:55 INFO  Log:27 - Opening the app
+2020-06-11 15:12:04 INFO  Log:27 - Opening the app
+2020-06-11 15:12:05 INFO  Log:27 - App open
+2020-06-11 15:12:16 INFO  Log:27 - User is on Products page
+2020-06-11 15:12:23 INFO  Log:27 - Products added
+2020-06-11 15:12:25 INFO  Log:27 - User is on Cart page
+2020-06-11 15:12:35 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:13:53 INFO  Log:17 - Test is Starting...
+2020-06-11 15:13:53 INFO  Log:27 - Starting server
+2020-06-11 15:13:54 INFO  Log:27 - Opening the app
+2020-06-11 15:14:04 INFO  Log:27 - Opening the app
+2020-06-11 15:14:05 INFO  Log:27 - App open
+2020-06-11 15:14:18 INFO  Log:27 - User is on Products page
+2020-06-11 15:14:25 INFO  Log:27 - Products added
+2020-06-11 15:14:27 INFO  Log:27 - User is on Cart page
+2020-06-11 15:14:37 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:14:41 ERROR Log:37 - Clicking Link
+java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.<init>(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at base.Utilities.click(Utilities.java:69)
+	at stepDef.ExcelLogIn.exceluser_clicks_on_the(ExcelLogIn.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2020-06-11 15:14:41 INFO  Log:22 - Test is Ending...
+2020-06-11 15:14:43 INFO  Log:27 - Stop driver
+2020-06-11 15:23:14 INFO  Log:17 - Test is Starting...
+2020-06-11 15:23:14 INFO  Log:27 - Starting server
+2020-06-11 15:23:16 INFO  Log:27 - Opening the app
+2020-06-11 15:23:32 INFO  Log:27 - Opening the app
+2020-06-11 15:23:34 INFO  Log:27 - App open
+2020-06-11 15:23:46 INFO  Log:27 - User is on Products page
+2020-06-11 15:23:54 INFO  Log:27 - Products added
+2020-06-11 15:23:56 INFO  Log:27 - User is on Cart page
+2020-06-11 15:24:07 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:24:23 ERROR Log:37 - Clicking Flipkart
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="rso"]/div[1]/div/div/div[1]/div[1]/a/div[2]/div (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at base.Utilities.click(Utilities.java:69)
+	at stepDef.ExcelLogIn.exceluser_clicks_on_the(ExcelLogIn.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="rso"]/div[1]/div/div/div[1]/div[1]/a/div[2]/div"}
+  (Session info: chrome=74.0.3729.185)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIAN09', ip: '192.168.43.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, deviceName: Demo, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a33e47e3-ef85-4fd3-8624-2919b9c77dec
+*** Element info: {Using=xpath, value=//*[@id="rso"]/div[1]/div/div/div[1]/div[1]/a/div[2]/div}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 58 more
+2020-06-11 15:24:23 INFO  Log:22 - Test is Ending...
+2020-06-11 15:24:26 INFO  Log:27 - Stop driver
+2020-06-11 15:24:46 INFO  Log:17 - Test is Starting...
+2020-06-11 15:24:46 INFO  Log:27 - Starting server
+2020-06-11 15:24:46 INFO  Log:27 - Opening the app
+2020-06-11 15:24:54 INFO  Log:27 - Opening the app
+2020-06-11 15:24:54 INFO  Log:27 - App open
+2020-06-11 15:25:38 INFO  Log:27 - User is on Products page
+2020-06-11 15:25:45 INFO  Log:27 - Products added
+2020-06-11 15:29:54 INFO  Log:17 - Test is Starting...
+2020-06-11 15:29:54 INFO  Log:27 - Starting server
+2020-06-11 15:29:55 INFO  Log:27 - Opening the app
+2020-06-11 15:30:04 INFO  Log:27 - Opening the app
+2020-06-11 15:30:06 INFO  Log:27 - App open
+2020-06-11 15:30:17 INFO  Log:27 - User is on Products page
+2020-06-11 15:30:25 INFO  Log:27 - Products added
+2020-06-11 15:30:26 INFO  Log:27 - User is on Cart page
+2020-06-11 15:30:36 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:30:37 INFO  Log:22 - Test is Ending...
+2020-06-11 15:30:40 INFO  Log:27 - Stop driver
+2020-06-11 15:32:29 INFO  Log:17 - Test is Starting...
+2020-06-11 15:32:29 INFO  Log:27 - Starting server
+2020-06-11 15:32:30 INFO  Log:27 - Opening the app
+2020-06-11 15:32:39 INFO  Log:27 - Opening the app
+2020-06-11 15:32:40 INFO  Log:27 - App open
+2020-06-11 15:32:53 INFO  Log:27 - User is on Products page
+2020-06-11 15:33:00 INFO  Log:27 - Products added
+2020-06-11 15:33:02 INFO  Log:27 - User is on Cart page
+2020-06-11 15:33:12 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:33:13 INFO  Log:22 - Test is Ending...
+2020-06-11 15:33:16 INFO  Log:27 - Stop driver
+2020-06-11 15:33:36 INFO  Log:17 - Test is Starting...
+2020-06-11 15:33:36 INFO  Log:27 - Starting server
+2020-06-11 15:33:37 INFO  Log:27 - Opening the app
+2020-06-11 15:33:44 INFO  Log:27 - Opening the app
+2020-06-11 15:33:44 INFO  Log:27 - App open
+2020-06-11 15:35:46 INFO  Log:17 - Test is Starting...
+2020-06-11 15:35:46 INFO  Log:27 - Starting server
+2020-06-11 15:35:47 INFO  Log:27 - Opening the app
+2020-06-11 15:35:57 INFO  Log:27 - Opening the app
+2020-06-11 15:35:57 INFO  Log:27 - App is open
+2020-06-11 15:36:09 INFO  Log:27 - User is on Products page
+2020-06-11 15:36:16 INFO  Log:27 - Products added
+2020-06-11 15:36:18 INFO  Log:27 - User is on Cart page
+2020-06-11 15:36:28 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:36:41 INFO  Log:22 - Test is Ending...
+2020-06-11 15:36:44 INFO  Log:27 - Stop driver
+2020-06-11 15:36:48 INFO  Log:27 - Stop appium service
+2020-06-11 15:36:48 INFO  Log:17 - Test is Starting...
+2020-06-11 15:36:48 INFO  Log:27 - Starting server
+2020-06-11 15:36:49 INFO  Log:27 - Opening the app
+2020-06-11 15:42:22 INFO  Log:17 - Test is Starting...
+2020-06-11 15:42:22 INFO  Log:27 - Starting server
+2020-06-11 15:42:23 INFO  Log:27 - Opening the app
+2020-06-11 15:42:32 INFO  Log:27 - Opening the app
+2020-06-11 15:42:33 INFO  Log:27 - App open
+2020-06-11 15:42:45 INFO  Log:27 - User is on Products page
+2020-06-11 15:42:52 INFO  Log:27 - Products added
+2020-06-11 15:42:53 INFO  Log:27 - User is on Cart page
+2020-06-11 15:43:03 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:43:19 ERROR Log:37 - Clicking Flipkart
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="rso"]/div[1]/div/div/div[1]/div[1]/a/div[2]/div (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at base.Utilities.click(Utilities.java:69)
+	at stepDef.ExcelLogIn.exceluser_clicks_on_the(ExcelLogIn.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="rso"]/div[1]/div/div/div[1]/div[1]/a/div[2]/div"}
+  (Session info: chrome=74.0.3729.185)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIAN09', ip: '192.168.43.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, deviceName: Demo, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 994d3b3e-02fe-49d6-bdeb-278be3df973d
+*** Element info: {Using=xpath, value=//*[@id="rso"]/div[1]/div/div/div[1]/div[1]/a/div[2]/div}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 58 more
+2020-06-11 15:43:19 INFO  Log:22 - Test is Ending...
+2020-06-11 15:43:22 INFO  Log:27 - Stop driver
+2020-06-11 15:43:35 INFO  Log:27 - Stop appium service
+2020-06-11 15:43:35 INFO  Log:17 - Test is Starting...
+2020-06-11 15:43:35 INFO  Log:27 - Starting server
+2020-06-11 15:43:36 INFO  Log:27 - Opening the app
+2020-06-11 15:47:26 INFO  Log:17 - Test is Starting...
+2020-06-11 15:47:26 INFO  Log:27 - Starting server
+2020-06-11 15:47:28 INFO  Log:27 - Opening the app
+2020-06-11 15:47:36 INFO  Log:27 - Opening the app
+2020-06-11 15:47:37 INFO  Log:27 - App open
+2020-06-11 15:47:49 INFO  Log:27 - User is on Products page
+2020-06-11 15:47:56 INFO  Log:27 - Products added
+2020-06-11 15:47:58 INFO  Log:27 - User is on Cart page
+2020-06-11 15:48:08 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:48:14 INFO  Log:22 - Test is Ending...
+2020-06-11 15:48:16 INFO  Log:27 - Stop driver
+2020-06-11 15:48:26 INFO  Log:27 - Stop appium service
+2020-06-11 15:51:31 INFO  Log:17 - Test is Starting...
+2020-06-11 15:51:31 INFO  Log:27 - Starting server
+2020-06-11 15:51:32 INFO  Log:27 - Opening the app
+2020-06-11 15:51:42 INFO  Log:27 - Opening the app
+2020-06-11 15:51:44 INFO  Log:27 - App open
+2020-06-11 15:51:55 INFO  Log:27 - User is on Products page
+2020-06-11 15:52:02 INFO  Log:27 - Products added
+2020-06-11 15:52:04 INFO  Log:27 - User is on Cart page
+2020-06-11 15:52:14 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:52:20 INFO  Log:22 - Test is Ending...
+2020-06-11 15:52:23 INFO  Log:27 - Stop driver
+2020-06-11 15:52:43 INFO  Log:17 - Test is Starting...
+2020-06-11 15:52:43 INFO  Log:27 - Starting server
+2020-06-11 15:52:45 INFO  Log:27 - Opening the app
+2020-06-11 15:52:57 INFO  Log:27 - Opening the app
+2020-06-11 15:52:57 INFO  Log:27 - App open
+2020-06-11 15:53:42 INFO  Log:27 - User is on Products page
+2020-06-11 15:53:49 INFO  Log:27 - Products added
+2020-06-11 15:53:50 INFO  Log:27 - User is on Cart page
+2020-06-11 15:54:01 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 15:54:12 INFO  Log:22 - Test is Ending...
+2020-06-11 15:54:15 INFO  Log:27 - Stop driver
+2020-06-11 18:39:54 INFO  Log:17 - Test is Starting...
+2020-06-11 18:39:54 INFO  Log:27 - Starting server
+2020-06-11 18:40:03 INFO  Log:27 - Opening the app
+2020-06-11 18:40:21 INFO  Log:27 - Opening the app
+2020-06-11 18:40:23 INFO  Log:27 - App open
+2020-06-11 18:40:37 INFO  Log:27 - User is on Products page
+2020-06-11 18:40:46 INFO  Log:27 - Products added
+2020-06-11 18:40:49 INFO  Log:27 - User is on Cart page
+2020-06-11 18:41:00 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 18:41:08 INFO  Log:22 - Test is Ending...
+2020-06-11 18:41:10 INFO  Log:27 - Stop driver
+2020-06-11 18:41:12 INFO  Log:27 - Stop appium service
+2020-06-11 18:41:13 INFO  Log:17 - Test is Starting...
+2020-06-11 18:41:13 INFO  Log:27 - Starting server
+2020-06-11 18:50:12 INFO  Log:17 - Test is Starting...
+2020-06-11 18:50:12 INFO  Log:27 - Starting server
+2020-06-11 18:50:14 INFO  Log:27 - Opening the app
+2020-06-11 18:50:29 INFO  Log:27 - Opening the app
+2020-06-11 18:50:31 INFO  Log:27 - App open
+2020-06-11 18:50:45 INFO  Log:27 - User is on Products page
+2020-06-11 18:50:55 INFO  Log:27 - Products added
+2020-06-11 18:50:59 INFO  Log:27 - User is on Cart page
+2020-06-11 18:51:11 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 18:51:19 INFO  Log:22 - Test is Ending...
+2020-06-11 18:51:22 INFO  Log:27 - Stop driver
+2020-06-11 18:51:23 INFO  Log:27 - Stop appium service
+2020-06-11 18:51:23 INFO  Log:17 - Test is Starting...
+2020-06-11 18:51:23 INFO  Log:27 - Starting server
+2020-06-11 18:51:24 INFO  Log:27 - Opening the app
+2020-06-11 18:51:36 INFO  Log:27 - Opening the app
+2020-06-11 18:51:36 INFO  Log:27 - App open
+2020-06-11 18:58:38 INFO  Log:17 - Test is Starting...
+2020-06-11 18:58:38 INFO  Log:27 - Starting server
+2020-06-11 18:58:41 INFO  Log:27 - Opening the app
+2020-06-11 18:58:55 INFO  Log:27 - Opening the app
+2020-06-11 18:58:57 INFO  Log:27 - App open
+2020-06-11 18:59:13 INFO  Log:27 - User is on Products page
+2020-06-11 18:59:22 INFO  Log:27 - Products added
+2020-06-11 18:59:25 INFO  Log:27 - User is on Cart page
+2020-06-11 18:59:37 INFO  Log:27 - WEBVIEW_chrome
+2020-06-11 18:59:43 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 18:59:52 INFO  Log:22 - Test is Ending...
+2020-06-11 18:59:55 INFO  Log:27 - Stop driver
+2020-06-11 18:59:56 INFO  Log:27 - Stop appium service
+2020-06-11 18:59:56 INFO  Log:17 - Test is Starting...
+2020-06-11 18:59:56 INFO  Log:27 - Starting server
+2020-06-11 18:59:59 INFO  Log:27 - Opening the app
+2020-06-11 19:00:10 INFO  Log:27 - Opening the app
+2020-06-11 19:00:11 INFO  Log:27 - App open
+2020-06-11 19:24:30 INFO  Log:17 - Test is Starting...
+2020-06-11 19:24:30 INFO  Log:27 - Starting server
+2020-06-11 19:24:33 INFO  Log:27 - Opening the app
+2020-06-11 19:24:51 INFO  Log:27 - Opening the app
+2020-06-11 19:24:51 INFO  Log:27 - App is open
+2020-06-11 19:24:57 INFO  Log:27 - User is on Products page
+2020-06-11 19:24:58 INFO  Log:27 - Products added
+2020-06-11 19:25:10 INFO  Log:27 - WEBVIEW_chrome
+2020-06-11 19:25:16 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 19:25:17 INFO  Log:27 - User is on Google_Homepage
+2020-06-11 19:25:31 INFO  Log:27 - User is on Test_Page
+2020-06-11 19:25:33 ERROR Log:37 - Alert Box
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=74.0.3729.185)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIAN09', ip: '192.168.43.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, deviceName: Demo, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bda39254-7a24-4fd1-b422-1ffb51f250db
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at base.Utilities.alertBox(Utilities.java:207)
+	at stepDef.Web.handle_alert_box(Web.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2020-06-11 19:25:34 ERROR Log:37 - Confirm Box
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=74.0.3729.185)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIAN09', ip: '192.168.43.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, deviceName: Demo, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bda39254-7a24-4fd1-b422-1ffb51f250db
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at base.Utilities.confirmBox(Utilities.java:221)
+	at stepDef.Web.handle_confirm_box(Web.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2020-06-11 19:25:36 ERROR Log:37 - Prompt Box
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=74.0.3729.185)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIAN09', ip: '192.168.43.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Demo, deviceName: Demo, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bda39254-7a24-4fd1-b422-1ffb51f250db
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at base.Utilities.promptBox(Utilities.java:235)
+	at stepDef.Web.handle_prompt_box(Web.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2020-06-11 19:25:36 INFO  Log:22 - Test is Ending...
+2020-06-11 19:25:39 INFO  Log:27 - Stop driver
+2020-06-11 19:25:40 INFO  Log:27 - Stop appium service
+2020-06-11 19:25:40 INFO  Log:17 - Test is Starting...
+2020-06-11 19:25:40 INFO  Log:27 - Starting server
+2020-06-11 19:25:42 INFO  Log:27 - Opening the app
+2020-06-11 19:25:55 INFO  Log:27 - Opening the app
+2020-06-11 19:25:55 INFO  Log:27 - App is open
+2020-06-11 19:26:02 INFO  Log:27 - User is on Products page
+2020-06-11 19:26:03 INFO  Log:27 - Products added
+2020-06-11 19:26:15 INFO  Log:27 - WEBVIEW_chrome
+2020-06-11 19:26:21 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 19:26:21 INFO  Log:27 - User is on Google_Homepage
+2020-06-11 19:26:36 INFO  Log:27 - User is on HorizontalSlider_window
+2020-06-11 19:26:37 INFO  Log:22 - Test is Ending...
+2020-06-11 19:26:39 INFO  Log:27 - Stop driver
+2020-06-11 19:26:40 INFO  Log:27 - Stop appium service
+2020-06-11 19:26:40 INFO  Log:17 - Test is Starting...
+2020-06-11 19:26:40 INFO  Log:27 - Starting server
+2020-06-11 19:26:42 INFO  Log:27 - Opening the app
+2020-06-11 19:58:15 INFO  Log:17 - Test is Starting...
+2020-06-11 19:58:15 INFO  Log:27 - Starting server
+2020-06-11 19:58:17 INFO  Log:27 - Opening the app
+2020-06-11 19:58:45 INFO  Log:27 - Opening the app
+2020-06-11 19:58:45 INFO  Log:27 - App is open
+2020-06-11 19:59:00 INFO  Log:27 - User is on Products page
+2020-06-11 19:59:09 INFO  Log:27 - Products added
+2020-06-11 19:59:11 INFO  Log:27 - User is on Cart page
+2020-06-11 19:59:22 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 19:59:30 INFO  Log:22 - Test is Ending...
+2020-06-11 19:59:33 INFO  Log:27 - Stop driver
+2020-06-11 19:59:34 INFO  Log:27 - Stop appium service
+2020-06-11 19:59:34 INFO  Log:17 - Test is Starting...
+2020-06-11 19:59:34 INFO  Log:27 - Starting server
+2020-06-11 19:59:36 INFO  Log:27 - Opening the app
+2020-06-11 19:59:46 INFO  Log:27 - Opening the app
+2020-06-11 19:59:46 INFO  Log:27 - App is open
+2020-06-11 20:00:42 INFO  Log:27 - User is on Products page
+2020-06-11 20:00:51 INFO  Log:27 - Products added
+2020-06-11 20:00:53 INFO  Log:27 - User is on Cart page
+2020-06-11 20:01:05 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-11 20:01:16 INFO  Log:22 - Test is Ending...
+2020-06-11 20:01:19 INFO  Log:27 - Stop driver
+2020-06-11 20:01:20 INFO  Log:27 - Stop appium service
+2020-06-17 13:35:30 INFO  Log:17 - Test is Starting...
+2020-06-17 13:35:30 INFO  Log:27 - Starting server
+2020-06-17 13:35:35 INFO  Log:27 - Opening the app
+2020-06-17 13:36:08 INFO  Log:27 - Opening the app
+2020-06-17 13:36:09 INFO  Log:27 - App open
+2020-06-17 13:36:22 INFO  Log:27 - User is on Products page
+2020-06-17 13:36:30 INFO  Log:27 - Products added
+2020-06-17 13:36:32 INFO  Log:27 - User is on Cart page
+2020-06-17 13:36:43 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-17 13:36:49 INFO  Log:22 - Test is Ending...
+2020-06-17 13:36:52 INFO  Log:27 - Stop driver
+2020-06-17 13:36:53 INFO  Log:27 - Stop appium service
+2020-06-17 13:36:53 INFO  Log:17 - Test is Starting...
+2020-06-17 13:36:53 INFO  Log:27 - Starting server
+2020-06-17 13:36:56 INFO  Log:27 - Opening the app
+2020-06-17 13:37:06 INFO  Log:27 - Opening the app
+2020-06-17 13:37:06 INFO  Log:27 - App open
+2020-06-17 13:37:50 INFO  Log:27 - User is on Products page
+2020-06-17 13:37:57 INFO  Log:27 - Products added
+2020-06-17 13:37:59 INFO  Log:27 - User is on Cart page
+2020-06-17 13:38:10 INFO  Log:27 - WEBVIEW_com.androidsample.generalstore
+2020-06-17 13:38:21 INFO  Log:22 - Test is Ending...
+2020-06-17 13:38:24 INFO  Log:27 - Stop driver
+2020-06-17 13:38:25 INFO  Log:27 - Stop appium service
