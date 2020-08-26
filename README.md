@@ -1,6 +1,6 @@
 # Mobile-Testing-Automation
 
-This is the complete project framework required for the Citi internship.
+This is the complete project framework.
 
 # Features
 
